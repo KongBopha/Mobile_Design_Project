@@ -1,16 +1,64 @@
-# login_ui
+# Flutter Login & Registration UI
 
-A new Flutter project.
+## Overview
+This project is a **Login and Registration UI** built using **Flutter**. The goal is to design and implement a user-friendly authentication interface utilizing **basic Flutter widgets** such as `TextField`, `ElevatedButton`, and `Checkbox`.
 
-## Getting Started
+## Features
+- 📩 **Email & Password Fields** with validation
+- 🔒 **Password Visibility Toggle**
+- ✅ **Checkbox for Terms & Conditions**
+- 🚀 **Navigation between Login and Registration Screens**
+- 🎨 **Modern and Responsive UI**
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Flutter** (Dart)
+- **Google Fonts** (for better typography)
+- **Material Design Components**
 
-A few resources to get you started if this is your first Flutter project:
+## Installation & Setup
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/yourusername/flutter-login-ui.git
+   cd flutter-login-ui
+   ```
+2. **Install Dependencies**
+   ```sh
+   flutter pub get
+   ```
+3. **Run the App**
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
+```
+flutter-login-ui/
+│-- lib/
+│   │-- main.dart  # Entry Point
+│   │-- login_screen.dart  # Login UI
+│   │-- register_screen.dart  # Registration UI
+|   |-- homescreen.dart # homescreen UI
+│-- assets/
+│   │-- accent.png  # UI Decorations
+│-- pubspec.yaml  # Dependencies
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use
+- **Register a New Account**
+  - Enter your email and password.
+  - Accept the Terms & Conditions.
+  - Click **Register** to create an account.
+  
+- **Login to Your Account**
+  - Enter your credentials.
+  - Click **Login** to access the home screen.
+
+## Screenshots
+_(Add screenshots here if available)_
+
+## Contributors
+👤 **Your Name** - [GitHub Profile](https://github.com/yourusername)
+
+## License
+This project is **open-source** under the [MIT License](LICENSE). Feel free to contribute! 🎉
+
