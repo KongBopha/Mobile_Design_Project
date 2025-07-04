@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:landing_page/herosection.dart';
+import 'package:landing_page/networksearch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Herosection(),
+      home:  NetworkSearchScreen(),
     );
   }
 }

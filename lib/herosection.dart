@@ -4,6 +4,7 @@ import 'package:landing_page/custombottombar.dart';
 import 'package:landing_page/featuredcourse.dart';
 import 'package:landing_page/footer.dart';
 import 'package:landing_page/instructorwidget.dart';
+import 'package:landing_page/searchcourse.dart';
 import 'package:landing_page/worktencywidget.dart';
 import 'package:landing_page/coursedetails.dart';
 
@@ -32,7 +33,12 @@ class Herosection extends StatelessWidget {
               IconButton(
                 icon: const Icon(Icons.search),
                 color: Colors.blue.shade800,
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Searchcourse()),
+                  );
+                },
               ),
               IconButton(
                 icon: const Icon(Icons.person),
